@@ -133,8 +133,12 @@ button:hover button:focus {
 
 .primary-section-core-values {
   letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
 }
-
+.paragraph-primary-section-core-values {
+  letter-spacing: 0.02em;
+}
 .secondary-section-our-team {
   background-color: #f4f4fd;
 }
