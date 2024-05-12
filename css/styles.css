@@ -132,6 +132,9 @@ address {
 .address-nav-link:hover {
   color: #404bbf;
 }
+.address-nav-link:active {
+  color: #404bbf;
+}
 .section-primary-section-effective-solutions {
   background-color: #2e2f42;
 }
