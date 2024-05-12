@@ -96,6 +96,11 @@ button:hover button:focus {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.secondary-site-nav-link:active {
+  color: #404bbf;
+}
+
 .site-nav-link:hover {
   color: #404bbf;
   font-weight: 500;
