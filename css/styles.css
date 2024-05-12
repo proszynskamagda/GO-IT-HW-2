@@ -97,10 +97,6 @@ button:hover button:focus {
   text-decoration: none;
 }
 
-.secondary-site-nav-link:active {
-  color: #404bbf;
-}
-
 .site-nav-link:hover {
   color: #404bbf;
   font-weight: 500;
@@ -109,13 +105,17 @@ button:hover button:focus {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.studio-site-nav-link:focus {
+.site-nav-link:focus {
   color: #404bbf;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   text-decoration: underline;
+}
+
+.site-nav-link:active {
+  color: #404bbf;
 }
 .address {
   font-style: normal;
