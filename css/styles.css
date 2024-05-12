@@ -170,8 +170,8 @@ button:hover button:focus {
   letter-spacing: 0.04em;
   font-family: inherit;
 }
-.button-hero-section-effective-solutions:hover
-  .button-hero-section-effective-solutions:focus {
+.button-hero-section-effective-solutions:hover,
+.button-hero-section-effective-solutions:focus {
   background-color: #404bbf;
 }
 
