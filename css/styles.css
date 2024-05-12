@@ -99,25 +99,16 @@ button:hover button:focus {
 
 .site-nav-link:hover {
   color: #404bbf;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .site-nav-link:focus {
   color: #404bbf;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-decoration: underline;
 }
 
 .site-nav-link:active {
   color: #404bbf;
 }
-.address {
+
+address {
   font-style: normal;
 }
 .address-nav-link {
@@ -137,6 +128,9 @@ button:hover button:focus {
   letter-spacing: 0.02em;
   font-style: normal;
   text-decoration: none;
+}
+.address-nav-link:hover {
+  color: #404bbf;
 }
 .section-primary-section-effective-solutions {
   background-color: #2e2f42;
