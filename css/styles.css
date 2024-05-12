@@ -130,7 +130,9 @@ button:hover button:focus {
   font-style: normal;
   text-decoration: none;
 }
-
+.section-primary-section-effective-solutions {
+  background-color: #2e2f42;
+}
 .primary-section-core-values {
   letter-spacing: 0.02em;
   font-weight: 500;
