@@ -105,7 +105,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav-link:focus {
+.studio-site-nav-link:focus {
   color: #404bbf;
   font-weight: 500;
   font-size: 16px;
@@ -113,7 +113,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-decoration: underline;
 }
-.address-link {
+.address-nav-link {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
@@ -122,9 +122,31 @@ button:focus {
   font-style: normal;
   text-decoration: none;
 }
+.address-nav-link:focus {
+  color: #404bbf;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  text-decoration: none;
+}
 
-.section-our-team {
+.primary-section-core-values {
+  letter-spacing: 0.02em;
+}
+
+.secondary-section-our-team {
   background-color: #f4f4fd;
+}
+
+.header-secondary-section-our-team {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.paragraph-secondary-section-our-team {
+  letter-spacing: 0.02em;
 }
 
 .hero-section-effective-solutions {
@@ -149,4 +171,21 @@ button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+}
+
+.header-tertiary-section-our-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.list-item-tertiary-section {
+  background-color: #ffffff;
+}
+.paragraph-tertiary-section-our-team {
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
