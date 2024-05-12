@@ -126,24 +126,6 @@ button:focus {
 .section-our-team {
   background-color: #f4f4fd;
 }
-.web {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-.studio {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #2e2f42;
-}
 
 .hero-section-effective-solutions {
   background-color: #2e2f42;
@@ -165,4 +147,6 @@ button:focus {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
