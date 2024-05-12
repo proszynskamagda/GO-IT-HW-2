@@ -117,6 +117,9 @@ button:hover button:focus {
   letter-spacing: 0.02em;
   text-decoration: underline;
 }
+.address {
+  font-style: normal;
+}
 .address-nav-link {
   color: #434455;
   font-weight: 400;
