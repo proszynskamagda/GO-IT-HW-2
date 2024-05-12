@@ -7,7 +7,7 @@ body {
   letter-spacing: 2%;
   font-weight: 400;
 }
-footer {
+.footer-primary-section {
   font-family: inherit;
   background-color: #2e2f42;
   font-weight: 400;
@@ -187,5 +187,14 @@ button:focus {
 }
 .paragraph-tertiary-section-our-team {
   font-size: 16px;
+  letter-spacing: 0.02em;
+}
+
+.footer-studio-span {
+  color: #f4f4fd;
+}
+.paragraph-footer-increase-the-flow {
+  line-height: 1.5;
+  color: #f4f4fd;
   letter-spacing: 0.02em;
 }
