@@ -300,6 +300,15 @@ button:hover button:focus {
   text-decoration: none;
   margin-right: 76px;
 }
+.tertiary-section-our-portfolio {
+  padding: 120px 0 120px 0;
+}
+.ul-tertiary-section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
 
 .header-tertiary-section-our-portfolio {
   font-weight: 700;
@@ -309,13 +318,22 @@ button:hover button:focus {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+.name-app-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .list-item-tertiary-section {
   background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
 }
 .paragraph-tertiary-section-our-team {
   font-size: 16px;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .footer-studio-span {
