@@ -163,9 +163,10 @@ button:hover button:focus {
 
 .address-header-section {
   font-style: normal;
-  display: flex;
+  display: inline-flex;
   gap: 40px;
 }
+
 .address-nav-link {
   color: #434455;
   font-weight: 400;
