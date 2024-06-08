@@ -19,14 +19,6 @@ body {
   color: #f4f4fd;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  justify-content: space-between;
-  padding: 24px;
-}
-
 ul,
 ol,
 li {
@@ -34,6 +26,9 @@ li {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+img {
+  display: block;
 }
 
 h1,
@@ -55,6 +50,24 @@ header {
   flex-direction: row;
   align-items: center;
 }
+.header-menu {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   weight: 700;
@@ -130,10 +143,10 @@ button:hover button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 24px 0;
 }
-.ul-row {
+.header-menu {
   display: flex;
-  flex-direction: row;
   gap: 40px;
 }
 
@@ -150,8 +163,8 @@ button:hover button:focus {
 
 .address-header-section {
   font-style: normal;
-  justify-content: space-evenly;
-  display: inline-flex;
+  display: flex;
+  gap: 40px;
 }
 .address-nav-link {
   color: #434455;
@@ -231,8 +244,7 @@ button:hover button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: flex;
-  padding-right: 36px;
+  margin-right: 76px;
 }
 
 .header-tertiary-section-our-portfolio {
