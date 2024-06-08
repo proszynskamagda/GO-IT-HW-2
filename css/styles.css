@@ -6,6 +6,8 @@ body {
   line-height: 1.5;
   letter-spacing: 2%;
   font-weight: 400;
+  max-width: 1158px;
+  display: block;
 }
 .footer-primary-section {
   font-family: inherit;
@@ -15,6 +17,14 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 24px;
 }
 
 ul,
@@ -120,7 +130,11 @@ button:hover button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: inline;
+}
+.ul-row {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .site-nav-link:hover {
@@ -218,6 +232,7 @@ button:hover button:focus {
   color: #4d5ae5;
   text-decoration: none;
   display: flex;
+  padding-right: 36px;
 }
 
 .header-tertiary-section-our-portfolio {
