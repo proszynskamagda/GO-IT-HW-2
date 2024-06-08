@@ -16,9 +16,34 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 header {
   font-family: inherit;
   color: inherit;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -95,6 +120,7 @@ button:hover button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: inline;
 }
 
 .site-nav-link:hover {
@@ -110,6 +136,8 @@ button:hover button:focus {
 
 .address-header-section {
   font-style: normal;
+  justify-content: space-evenly;
+  display: inline-flex;
 }
 .address-nav-link {
   color: #434455;
@@ -189,6 +217,7 @@ button:hover button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: flex;
 }
 
 .header-tertiary-section-our-portfolio {
