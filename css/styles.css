@@ -17,6 +17,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding: 100px 0;
 }
 
 ul,
@@ -308,6 +309,8 @@ button:hover button:focus {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .tertiary-section-our-portfolio {
   padding: 120px 0 120px 0;
@@ -352,4 +355,5 @@ button:hover button:focus {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
