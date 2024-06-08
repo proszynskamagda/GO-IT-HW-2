@@ -193,6 +193,7 @@ button:hover button:focus {
 }
 .section-primary-section-effective-solutions {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .primary-section-core-values {
   letter-spacing: 0.02em;
@@ -225,11 +226,19 @@ button:hover button:focus {
   color: #ffffff;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .button-hero-section-effective-solutions {
   letter-spacing: 0.04em;
   font-family: inherit;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .button-hero-section-effective-solutions:hover,
 .button-hero-section-effective-solutions:focus {
