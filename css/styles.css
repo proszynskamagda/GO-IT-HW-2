@@ -271,14 +271,6 @@ button:hover button:focus {
   margin-bottom: 72px;
 }
 
-.header-quaternary-section-our-portfolio {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-transform: capitalize;
-  margin-bottom: 8px;
-}
-
 .paragraph-tertiary-section-our-team {
   letter-spacing: 0.02em;
   text-align: center;
@@ -341,14 +333,12 @@ button:hover button:focus {
 }
 
 .header-quaternary-section-our-portfolio {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .name-app-container {
   padding: 32px 16px;
