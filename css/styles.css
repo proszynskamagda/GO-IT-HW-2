@@ -288,7 +288,7 @@ button:hover button:focus {
 }
 
 .container-name {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 
 .button-hero-section-effective-solutions {
@@ -353,7 +353,7 @@ button:hover button:focus {
 .paragraph-tertiary-section {
   font-size: 16px;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 }
 
 .footer-studio-span {
