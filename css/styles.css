@@ -6,7 +6,6 @@ body {
   line-height: 1.5;
   letter-spacing: 2%;
   font-weight: 400;
-  max-width: 1158px;
   display: block;
 }
 .footer-secondary-section {
@@ -53,15 +52,33 @@ header {
 }
 .header-menu {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  gap: 40px;
+}
+.header-menu-ul {
+  display: flex;
+  gap: 40px;
 }
 
 .header-div {
   display: flex;
+  gap: 40px;
+  align-items: baseline;
+  justify-content: space-between;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.container-effective-solutions {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nav-menu {
@@ -145,10 +162,7 @@ button:hover button:focus {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding: 24px 0;
-}
-.header-menu {
-  display: flex;
-  gap: 40px;
+  display: inline-block;
 }
 
 .site-nav-link:hover {
@@ -166,6 +180,7 @@ button:hover button:focus {
   font-style: normal;
   display: inline-flex;
   gap: 40px;
+  align-items: center;
 }
 
 .address-nav-link {
@@ -287,6 +302,7 @@ button:hover button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .container-name {
@@ -320,8 +336,22 @@ button:hover button:focus {
   text-decoration: none;
   margin-right: 76px;
   display: inline-block;
+}
+
+.logo-header-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  margin-right: 76px;
+  display: inline-block;
   margin-bottom: 16px;
 }
+
 .quaternary-section-our-portfolio {
   padding: 120px 0 120px 0;
 }
